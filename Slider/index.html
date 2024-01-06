@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="#">Avronil</a>
+        </div>
+        <div class="header-menu ">
+            <ul class="manuItem DontShow">
+                <li><a href="#">Home</a></li>
+                <li ><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li  class="dropDown"><a href="#">Contact</a>
+                    <div class="dropdownItem ">
+                        <a href="">FaceBook</a>
+                        <a href="">Instagram</a>
+                        <a href="">Linkedln</a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="responsiveMenu">
+                <li><a href="#">Home</a></li>
+                <li ><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li  class="dropDown"><a href="#">Contact</a>
+                    <div class="dropdownItem ">
+                        <a href="">FaceBook</a>
+                        <a href="">Instagram</a>
+                        <a href="">Linkedln</a>
+                    </div>
+                </li>
+            </ul>
+            
+             <div class="signUp DontShow">
+                <button>Sign Up</button>
+                <button>login</button>
+            </div>
+            <button onclick="ShowMenu()" class="bars">|||</button>
+        </div>
+       
+        <div class="content">
+            <h1 class="heading-content">Web Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quod alias cupiditate, eveniet hic vero atque.</p>
+        </div>
+        <div class="sliderBtn">
+            <button class="arrowLeft" onclick="arrowLeft()"><i class="fa-solid fa-arrow-left"></i> </button>
+            <button class="arrowRight" onclick="arrowRight()"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
